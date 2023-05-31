@@ -1,0 +1,133 @@
+
+body{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    position: static;
+    left: 0;
+    top: 0;
+    background-color: red;
+    color: aliceblue;
+    
+}
+li a{
+    text-decoration: none !important;
+    
+}
+nav{
+    background-color: red;
+    height: 30px;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+}
+nav ul li{
+    display: inline;
+    justify-content: space-around;
+    text-decoration: none;
+    padding-left: 30px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: red;
+}
+
+.section{
+    background-image: url(bg.jpg);
+    height: 300px;
+    width: 100%;
+    padding-top: 5px;
+}
+.yazı{
+   
+    background-color: white;
+    color: red;
+    width: fit-content;
+}
+.button:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.button{
+    background-color: white;
+    color: red;
+    border: 2px red solid;
+    width: fit-content;
+}
+.about{
+    text-align: center;
+}
+.hakkinda{
+    display: flex;
+}
+.kutucuk{
+    display: block;
+    width: 300px;
+    text-align: justify;
+    margin: 5px;
+}
+.kutucuk .button{
+    float: right;
+}
+.kutucuk h2{
+    margin: 5px;
+    font-size: 14px;
+    color: red;
+}
+.kutucuk p{
+    margin: 5px;
+    font-size: 12px;
+    font-style: italic;
+}
+.yontem{
+    align-content: center;
+    display: block;
+    
+}
+.yontem h2{
+    text-align: center;
+    color: #333333;
+}
+.bagis:hover{
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+    
+}
+.yollar{
+    display: flex;
+    justify-content: center;
+}
+.bagis{
+    margin: 15px;
+    text-align: center;
+}
+.donate{
+    display: block;
+    align-content: center;
+}
+table{
+    text-align: left;
+    align-items: center;
+}
+.buttons{
+    background-color: red;
+    color: white;
+    width: 250px;
+    font-size: 24px;
+    text-align: center;
+}
+.buttons:hover
+{
+    background-color: white;
+    color: red;
+    border: 2px red solid;
+}
+footer{
+    border-top: 1px red solid;
+}
+footer p{
+    text-align: center;
+}
